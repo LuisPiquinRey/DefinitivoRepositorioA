@@ -6,3 +6,8 @@ info:
   name: "Luis Piquin Rey"
   email: "piquin.rey@gmail.com"
   message: "Bienvenido usuario, estas navegando en el perfil DEFAULT"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
